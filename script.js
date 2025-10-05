@@ -1,6 +1,6 @@
 // Initialize EmailJS
 (function() {
-    emailjs.init('TkvDZfhkIskUWOabN'); // Replace with your EmailJS public key
+    emailjs.init('TkvDZfhkIskUWOabN'); //  EmailJS public key
 })();
 
 // Navigation functionality
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', function() {
             project_type: formObject.projectType,
             budget: formObject.budget,
             message: formObject.message,
-            to_email: 'a01203277@gmail.com' // Your email address
+            to_email: 'ecogrowthltd@gmail.com' //  email address
         })
         .then(function(response) {
             console.log('Email sent successfully:', response);
@@ -358,5 +358,6 @@ nextBtn.addEventListener("click", () => showSlide(index + 1));
 
 // Auto-play every 4s
 setInterval(() => showSlide(index + 1), 4000);
+
 
 */
