@@ -435,14 +435,17 @@
 
 
                     <div class="footer-bottom">
-                        <p>&copy; 2025 ecoGrowth Limited. All rights reserved.</p>
+                        <p>&copy; <span id="year"></span> ecoGrowth Limited. All rights reserved.</p>
                     </div>
                 </div>
     </footer>
-
+<script>
+document.getElementById("year").textContent = new Date().getFullYear();
+</script>
     <script src="script.js"></script>
 </body>
 
 
 </html>
+
 
