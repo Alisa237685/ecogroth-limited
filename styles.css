@@ -69,12 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     gap: 12px;
 
 }
-span{
-font-size: large;
-font-weight: 800;
-color: rgb(25, 231, 6);
 
-}
 
 .brand-text {
     font-family: 'Playfair Display', serif;
@@ -706,5 +701,6 @@ color: rgb(25, 231, 6);
     .whatsapp-btn:hover {
       background: #1ebe5d;
       transform: scale(1.1);
+
 
     }
